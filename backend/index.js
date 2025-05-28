@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://personaltrackingapp2-production.up.railway.app",
+    origin: "http://localhost:5173",
     credentials: true, // allow cookies to be sent
   })
 );
