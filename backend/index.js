@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "*",
     credentials: true, // allow cookies to be sent
   })
 );
