@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://personaltrackingapp2-production.up.railway.app",
+  baseURL: "https://personaltrackingapp2-production.up.railway.app",
   withCredentials : true,
 });
 
